@@ -1,0 +1,70 @@
+img{
+	width: 330px;
+	border-style: solid;
+	border-color: white;
+	float: center;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+img:hover{
+	transition:transform 2s ease-in;
+}
+ header {
+	 font-size: 20px;
+	 flex-direction: column;
+	 display: flex;
+	 border-radius: 20px;
+	 border-style: solid;
+	 border-color: white;
+	 color: white;
+	 background-color: transparent;
+	 backdrop-filter: blur(4px)
+}	
+body{
+	background-color: aqua;
+	font-family: sans-sherif;
+	background-image: url( 'https://tse4.mm.bing.net/th/id/OIP.RRwG0837KoQyyMN49u42cwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3');
+	background-size: cover;
+	backgorund-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	backdrop-filter: blur(4px)
+	border-radius: 8px;
+	margin: -15px;
+	padding: 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	box-shadow: 10px 1px 2px 1px black;
+	background-color: black;
+	mix-blend-mode: multiply;
+}
+a:hover{
+	color: white;
+	background-color: black;
+	border-style: solid;
+	border-radius: 15px;
+	padding: 15px;
+	mix-blend-mode: multiply;
+}
+h1{
+	color: white;
+}
+h2{ 
+	color: white;
+}
+h3{ 
+	color: white;
+}
+p{
+	color: white;
+}
+h4{
+	color: white;
+}
+h5{
+	color: white;
+}
+	
