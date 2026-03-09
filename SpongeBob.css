@@ -1,0 +1,332 @@
+html{
+    background-image: linear-gradient(rgb(192, 192, 192), rgb(77, 77, 77));
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+body{
+    font-family: "Changa One", sans-serif;
+    background-color: #000000;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    padding-bottom: 30px;
+    height:90%;
+    width:90%;
+    border-radius: 40px;
+
+
+}
+
+#navbar{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ 
+ 
+    
+}
+header{ 
+    
+    margin-top: 10px;
+
+}
+
+#title1{
+    font-size: 50px;
+    color: white;
+    margin-left: 100px;
+    animation: title1an 2s 1;
+
+    transition:0.5s;
+}
+
+#title1:hover{
+    letter-spacing: 2px;
+    color:#00a700;
+    text-shadow: 3px 3px 2px white;
+
+
+}
+@keyframes title1an {
+    0%{
+        color: black;
+    }
+    50%{
+        letter-spacing: 5px;
+        color:#00a700;
+        font-size: 60px;
+        margin-right: 5px;
+        text-shadow: 3px 3px 2px  #ffffff;
+    }
+
+    100%{
+      
+
+    }
+}
+
+#navh{
+    margin-right: 50px;
+
+
+}
+
+.navc{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 200px;
+    font-size: 30px;
+    transition: 0.4s;
+
+    animation: navcan 2s 1;
+}
+
+@keyframes navcan {
+
+    0%{
+        color: black;
+    }
+    50%{
+         color: black;
+    }
+    
+
+}
+.navc:hover{
+   text-decoration: underline;
+   color: #000000;
+   font-size: 32px;
+   background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+#abtnc{
+    color: #00a700;
+}
+
+#aligner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#photosec{
+    border: solid #00a700 20px;
+    background-color: wheat;
+    width:400px;
+    margin-left: 20px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    transition: 0.5s;
+    animation: mypic 3s 1;
+}
+
+#photosec:hover{
+
+    border: solid wheat 20px;
+    background-color: #00a700;
+
+
+}
+
+@keyframes mypic {
+     0%{
+        background-color: black;
+        border: solid black 20px;
+    }
+    30%{
+        rotate:0deg;
+        background-color: black;
+        border: solid black 20px;
+    }
+    
+
+
+}
+#myphoto{
+    margin-right: 20px;
+    height: 400px;
+    width:400px;
+    margin-left: 20px;
+    border-radius:43%;
+    animation: myphoto 3s 1;
+}
+
+@keyframes myphoto {
+   
+    0%{
+        opacity: 0%;
+    }
+
+    30%{
+        opacity: 0%;
+    }
+}
+
+h2{
+    text-shadow: 2px 2px 2px #00a700;
+    transition: 0.5s;
+}
+
+h2:hover{
+
+    color:#00a700;
+    text-shadow: 2px 2px 2px white;
+    font-size: 80px;
+
+}
+
+#abtsec1{
+   
+    margin-top: 180px;
+    margin-left: 20px;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    animation: abt1an 3s 1;
+}
+
+@keyframes abt1an {
+    0%{
+        opacity: 0%;
+    }
+    30%{
+        opacity: 0%;
+    }
+
+}
+
+#abtme{
+    color:white;
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#abtme2{
+    color:white;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#age{
+    animation: age 3s 1;
+}
+@keyframes age {
+   0%{
+     color:black;
+   }
+   
+    30%{
+        color:black;
+    }
+
+}
+#bday{
+    animation: bday 3s 1;
+}
+@keyframes bday {
+     0%{
+     color:black;
+   }
+   
+    40%{
+        color:black;
+    }
+
+}
+#grade{
+    animation: grade 3s 1;
+}
+@keyframes grade {
+     0%{
+     color:black;
+   }
+   
+    50%{
+        color:black;
+    }
+
+}
+#school{
+    animation: school 3s 1;
+}
+@keyframes school {
+     0%{
+     color:black;
+   }
+   
+    60%{
+        color:black;
+    }
+
+}
+#food{
+    animation: food 3s 1;
+}
+@keyframes food {
+     0%{
+     color:black;
+   }
+   
+    70%{
+        color:black;
+    }
+
+}
+#tv{
+    animation: tv 3s 1;
+}
+@keyframes tv {
+     0%{
+     color:black;
+   }
+   
+    80%{
+        color:black;
+    }
+
+}
+
+span{
+    color:wheat;
+    text-shadow: 2px 2px 2px #00a700;
+    transition: 0.5s;
+    animation: ansan 3s 1;
+}
+@keyframes ansan {
+    0%{
+        opacity: 0%;
+    }
+    90%{
+        opacity: 0%;
+    }
+}
+
+span:hover{
+
+    color:#00a700;
+    text-shadow: 2px 2px 2px wheat;
+    font-size: 35px;
+
+}
